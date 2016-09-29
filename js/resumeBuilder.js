@@ -16,7 +16,6 @@ bio.skills = [" Awesomeness "," Programming "," Photography ","Delivering on tim
 bio.biopic = "images/fry.jpg";
 
 bio.display = function(){
-
 	var formattedName = HTMLheaderName.replace("%data%",bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
 	var formattedMobile = HTMLmobile.replace("%data%",bio.contacts.mobile);
